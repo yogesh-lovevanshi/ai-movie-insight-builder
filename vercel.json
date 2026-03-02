@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "name": "ai-movie-insight-builder",
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/next"
+    }
+  ],
+  "env": {
+    "OMDB_API_KEY": "@omdb_api_key",
+    "OPENAI_API_KEY": "@openai_api_key"
+  },
+  "regions": ["iad1"]
+}
