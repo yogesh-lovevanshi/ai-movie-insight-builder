@@ -31,20 +31,20 @@ export default function Home() {
   return (
     <div className="container">
       <div className="card">
-        <div style={{ textAlign: 'center', marginBottom: '2.5rem' }}>
+        <div style={{ textAlign: 'center', marginBottom: '1.5rem' }}>
           <h1 style={{ 
-            fontSize: '3rem', 
+            fontSize: 'clamp(2rem, 5vw, 3rem)', 
             fontWeight: '800',
-            background: 'linear-gradient(135deg, #7877c6 0%, #5e5ba7 100%)',
+            background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
             WebkitBackgroundClip: 'text',
             WebkitTextFillColor: 'transparent',
             backgroundClip: 'text',
             marginBottom: '0.5rem',
             letterSpacing: '-0.02em'
           }}>
-            🎬 AI Movie Insight Builder
+            🎬 AI Movie Insight
           </h1>
-          <p style={{ color: '#6b7280', fontSize: '1.1rem', fontWeight: '500' }}>
+          <p style={{ color: '#6b7280', fontSize: 'clamp(0.95rem, 2vw, 1.1rem)', fontWeight: '500' }}>
             Discover movies with AI-powered sentiment analysis
           </p>
         </div>
